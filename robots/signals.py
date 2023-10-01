@@ -27,6 +27,5 @@ def post_save_robot(created, **kwargs):
                 [email],
                 fail_silently=False,
             )
-            print(f'отправил {email}')
             # поидее нужно удалить запись, т.к. заказ может быть выполнен
             ord.delete()
