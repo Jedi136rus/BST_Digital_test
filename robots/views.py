@@ -59,7 +59,7 @@ def excel_report(request):
             list_df.to_excel(writer, sheet_name=model)
         writer.close()
 
-        # Set up the Http response.
+        # Отправка файла
         filename = f'robot_report(since {date_end} till {datetime.date.today()}).xlsx'
         response = HttpResponse(
             b.getvalue(),
