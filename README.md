@@ -78,7 +78,6 @@ POST http://localhost:8000/api/robots/excel_report/
 Так же если в orders есть заказы ожидающие появления новых роботов. 
 На почту заказчиками придет уведомление о появлении в наличии необходимого робота
 
-POST http://localhost:8000/api/robots/excel_report/
 
 <img src="screens/third_task_screen.png" alt="">
 
